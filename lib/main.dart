@@ -12,11 +12,7 @@ void main() async{
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-// final firemessage = FirebaseMessaging.instance;
-//   await firemessage.requestPermission();
-//   final token = await firemessage.getToken();
-//   print("Token : $token");
-  // FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
+
 
   runApp(const MyApp());
 }
